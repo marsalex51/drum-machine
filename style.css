@@ -1,0 +1,49 @@
+html {
+  font-family: 'Francois One', sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  margin: 0;
+  cursor: default;
+}
+h1 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+span {
+  margin: 0;
+  padding: 0;
+}
+.key {
+  font-size: 3.5rem;
+}
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.pressed {
+  border-color: #ff0a0a;
+  transform: scale(1.1);
+}
